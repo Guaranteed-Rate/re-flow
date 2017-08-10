@@ -1,7 +1,25 @@
 ![re-flow logo](/images/re-flow.png)
 
 re-flow is a library that adds tools for building and executing workflows in
-re-frame applications.
+[re-frame](https://github.com/Day8/re-frame) applications.
+
+At Guaranteed Rate, we often find ourselves building applications that guide a
+user through a complex workflow, such as finding or applying for a home loan.
+re-flow is a library we developed to express these workflows as data and provide
+tools to execute, debug, and visualize them.
+
+Ultimately, re-flow provides an approach to building UIs similar to the one
+described in [this Cognitect blog post]
+(https://blog.cognitect.com/blog/2017/5/22/restate-your-ui-using-state-machines-to-simplify-user-interface-development).
+
+re-frame is an exceptionally awesome framework for building client applications
+(thanks Mike et al!), and we designed re-flow to integrate tightly with its
+interceptor facilities. re-flow is therefore pluggable by providing your own
+custom interceptors. Most of the default functionality resides in interceptors,
+so you can even strip it out if it does not fit your needs.
+
+We are excited to share re-flow with you and would love to hear your feedback.
+Please feel free to open an issue or contact a project maintainer directly.
 
 
 ## Installation
