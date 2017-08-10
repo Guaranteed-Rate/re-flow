@@ -9,8 +9,8 @@ re-flow is a library we developed to express these workflows as data and provide
 tools to execute, debug, and visualize them.
 
 Ultimately, re-flow provides an approach to building UIs similar to the one
-described in [this Cognitect blog post]
-(https://blog.cognitect.com/blog/2017/5/22/restate-your-ui-using-state-machines-to-simplify-user-interface-development).
+described in
+[this Cognitect blog post](https://blog.cognitect.com/blog/2017/5/22/restate-your-ui-using-state-machines-to-simplify-user-interface-development).
 
 re-frame is an exceptionally awesome framework for building client applications
 (thanks Mike et al!), and we designed re-flow to integrate tightly with its
