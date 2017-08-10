@@ -66,7 +66,7 @@ dependencies described in the previous sections.
 
 ## Documentation
 
-[API Docs](https://guaranteed-rate.github.io/re-flow)
+[API Docs](https://guaranteed-rate.github.io/re-flow/)
 
 [Documentation](/doc)
 
