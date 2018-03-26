@@ -1,4 +1,4 @@
-(defproject guaranteed-rate/re-flow "0.7.0"
+(defproject guaranteed-rate/re-flow "0.8.0"
   :description "A library that adds tools for building and executing workflows in re-frame applications"
   :url "https://github.com/Guaranteed-Rate/re-flow"
   :license {:name "MIT License"}
