@@ -33,7 +33,7 @@ If you intend to use re-flow in a ClojureScript application without interacting
 with flows using Clojure, include the following dependency in your project file.
 
 ```
-[guaranteed-rate/re-flow "0.7.0"]
+[guaranteed-rate/re-flow "0.8.0"]
 ```
 
 ### Clojure 1.8
@@ -44,15 +44,9 @@ and uses [clojure-future-spec](https://github.com/tonsky/clojure-future-spec) to
 provide those features.
 
 ```
-[clojure-future-spec "1.9.0-alpha15"]
-[guaranteed-rate/re-flow "0.7.0"]
+[clojure-future-spec "1.9.0-beta4"]
+[guaranteed-rate/re-flow "0.8.0"]
 ```
-
-The version required is derived from the version of ClojureScript used by
-re-frame. Note that `alpha15` pre-dates the namespace split. New versions of
-re-flow will be released as the version of ClojureScript required for re-frame
-is updated.
-
 
 ### Clojure 1.9
 
@@ -62,14 +56,9 @@ the same structure of spec namespaces as the version of ClojureScript required
 by re-frame.
 
 ```
-[org.clojure/clojure "1.9.0-alpha15"]
-[guaranteed-rate/re-flow "0.7.0"]
+[org.clojure/clojure "1.9.0"]
+[guaranteed-rate/re-flow "0.8.0"]
 ```
-
-The version required is derived from the version of ClojureScript used by
-re-frame. Note that `alpha15` pre-dates the namespace split. New versions of
-re-flow will be released as the version of ClojureScript required for re-frame
-is updated.
 
 ### Clojure with Visualization
 
@@ -140,6 +129,6 @@ but the example contains much more documentation. Be sure to check out the
 
 ## License
 
-Copyright © 2017 Guaranteed Rate
+Copyright © 2017-2018 Guaranteed Rate
 
 Distributed under the [MIT license](LICENSE)
