@@ -4,8 +4,8 @@
   These functions taken from:
   https://gist.github.com/Risto-Stevcev/dc628109abd840c7553de1c5d7d55608"
   (:require [clojure.pprint :as pprint]
-            [clojure.spec :as s]
-            [clojure.spec.test :as stest]
+            [clojure.spec.alpha :as s]
+            [clojure.spec.test.alpha :as stest]
             [clojure.test :refer [is]]))
 
 (defn summarize-results [spec-check]

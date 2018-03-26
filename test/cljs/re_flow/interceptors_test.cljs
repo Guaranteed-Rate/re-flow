@@ -1,5 +1,5 @@
 (ns re-flow.interceptors-test
-  (:require [clojure.spec :as s]
+  (:require [clojure.spec.alpha :as s]
             [clojure.test :refer [deftest is testing]]
             [re-flow.db :as db]
             [re-flow.flow :as rff]

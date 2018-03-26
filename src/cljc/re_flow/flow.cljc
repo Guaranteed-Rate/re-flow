@@ -90,7 +90,7 @@
 
     {:start :A})
   ```"
-  (:require [clojure.spec :as s]))
+  (:require [clojure.spec.alpha :as s]))
 
 ;; -- Flow definition specs
 

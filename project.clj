@@ -18,15 +18,15 @@
 
   :clean-targets ["target"]
 
-  :profiles {:provided {:dependencies [[org.clojure/clojurescript "1.9.227"]
-                                       [re-frame "0.9.2"]
+  :profiles {:provided {:dependencies [[org.clojure/clojurescript "1.9.908"]
+                                       [re-frame "0.10.5"]
                                        [aysylu/loom "1.0.0"]]}
              :dev {:dependencies [[org.clojure/test.check "0.9.0"]
                                   [day8.re-frame/test "0.1.5"]]
-                   :plugins [[lein-cljsbuild "1.1.5"]
-                             [lein-doo "0.1.7"]]}
-             :1.8 {:dependencies [[clojure-future-spec "1.9.0-alpha15"]]}
-             :1.9 {:dependencies [[org.clojure/clojure "1.9.0-alpha15"]]}}
+                   :plugins [[lein-cljsbuild "1.1.7"]
+                             [lein-doo "0.1.10"]]}
+             :1.8 {:dependencies [[clojure-future-spec "1.9.0-beta4"]]}
+             :1.9 {:dependencies [[org.clojure/clojure "1.9.0"]]}}
 
   :cljsbuild
   {:builds [{:id "test"

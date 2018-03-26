@@ -1,6 +1,6 @@
 (ns re-flow.core-test
-  (:require [clojure.spec :as s]
-            [clojure.spec.test :as stest]
+  (:require [clojure.spec.alpha :as s]
+            [clojure.spec.test.alpha :as stest]
             [clojure.test :refer-macros [deftest testing is]]
             [day8.re-frame.test :refer-macros [run-test-sync]]
             [re-flow.core :as sut]

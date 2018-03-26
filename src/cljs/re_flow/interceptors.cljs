@@ -16,7 +16,7 @@
   It is important to pay attention to the order of the interceptors since some
   of them (e.g., [[conform-transition-data]]) may change the transition data in
   such a way that data may be lost."
-  (:require [clojure.spec :as s]
+  (:require [clojure.spec.alpha :as s]
             [re-flow.db :as db]
             [re-flow.flow :as rff]
             [re-flow.spec :refer [td-spec]]

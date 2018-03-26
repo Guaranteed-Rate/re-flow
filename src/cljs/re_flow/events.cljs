@@ -3,7 +3,7 @@
 
   The primary events are :re-flow.events/start and :re-flow.events/transition.
   For convenience, there are corresponding functions to dispatch the events."
-  (:require [clojure.spec :as s]
+  (:require [clojure.spec.alpha :as s]
             [re-frame.core :as rf]
             [re-flow.db :as db]
             [re-flow.coeffects :as rfe]

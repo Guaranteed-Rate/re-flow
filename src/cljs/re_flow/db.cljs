@@ -1,6 +1,6 @@
 (ns re-flow.db
   "Functions for interacting with re-frame dbs."
-  (:require [clojure.spec :as s]
+  (:require [clojure.spec.alpha :as s]
             [re-flow.flow :as rff]
             [re-flow.util :as u]))
 

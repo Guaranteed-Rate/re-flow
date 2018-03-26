@@ -1,5 +1,5 @@
 (ns re-flow.db-test
-  (:require [clojure.spec.test :as stest]
+  (:require [clojure.spec.test.alpha :as stest]
             [clojure.test :refer [deftest is testing]]
             [re-flow.db :as sut]
             [re-flow.flow :as rff]
