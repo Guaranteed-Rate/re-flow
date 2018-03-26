@@ -1,5 +1,5 @@
 (ns counter.core
-  (:require [clojure.spec :as s]
+  (:require [clojure.spec.alpha :as s]
             [reagent.core :as reagent]
             [re-frame.core :as re-frame]
             [re-flow.core :as re-flow]))
